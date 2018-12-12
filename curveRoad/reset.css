@@ -1,0 +1,14 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
